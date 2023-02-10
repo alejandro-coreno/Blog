@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body::-webkit-scrollbar{
+    width: 7px;
+}
+
+
+body::-webkit-scrollbar-thumb{
+    background-color: #737cfd;
+    border-radius: 7px;
+}
+
+header{
+    width: 100%;
+    /* background-color: #2e80b8; */
+}
+
+/* Estilos HEADER */
+.nav-bar{
+   height: 70px;
+   background-color: #10141a;
+   /* background-color: #4d5077; */
+   padding: 15px;
+   box-shadow: 0px 0px 7px 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-bar h1{
+    color: #fc9292;
+    font-size: 37px;
+    font-weight: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Estilos contenido principal */
+
+.contenedor-image{
+    height: 100vh;
+}
+
+.contenedor-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contenido{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-conte{
+    width: 80%;
+    padding: 15px;
+}
+
+.info-conte h2{
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.info-conte p{
+    font-size: 17px;
+    line-height: 40px;
+}
+
+.conte-img{
+    width: 20%;
+    text-align: center;
+}
+
+.conte-img img{
+    transition: all 0.5s ease;
+}
+
+.conte-img img:hover{
+    transform: scale(1.2);
+}
+
+/* Estilos FOOTER */
+
+footer{
+    padding: 17px;
+    text-align: center;
+    background-color: #10141a;
+}
+
+footer span{
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    /* font-style: italic; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
